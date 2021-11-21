@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(5, 21, 39);
+    height: 680px;
+    font-family: 'Outfit',sans-serif;
+  }
+  .card{
+    height: 510px;
+    width: 300px;
+    background-color: rgb(9, 36, 66);
+    padding: 0px 5px;
+    border-radius: 15px;
+     display: block;
+     margin: auto auto;
+     position: relative;
+     top: 85px;
+  }
+  #frontimg{
+  height: 250px;
+  width: 270px;
+  border-radius: 15px;
+  z-index: 1;
+  }
+
+  #headerimg{
+    position: relative;
+    top: 20px;
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 270px;
+  }
+  
+  #content{
+    margin: 8px 10px;
+    padding: 10px;
+    height: 100px;
+  }
+  
+  #content-heading{
+    color: azure;
+    margin-top: 25px;
+  }
+
+  #content-heading:hover{
+    color: cyan;
+  }
+
+  #content-para{
+    color: rgb(145, 177, 224);
+  }
+
+  #countings{
+    margin: 0px 10px;
+    display: flex;
+    position: relative;
+    top: -10px;
+    height: 50px;
+  }
+
+  .item{
+    width: 50%;
+    display: flex;
+  }
+  #item-1{
+    position: relative;
+  }
+
+  #item-2{
+    position: relative;
+    
+  }
+
+  #svgicon-1{
+    display: block;
+    margin: 20px 5px;
+  }
+
+  #svgicon-2{
+    display: block;
+    margin: 20px 5px;
+    position: relative;
+    right: -35px;
+  }
+
+  #countings-1{
+    color: rgb(4, 236, 236);
+  }
+  #countings-2{
+    margin: 19px 7px;
+    position: relative;
+    left: 30px;
+    color: rgb(145, 177, 224);
+  }
+
+  #horizon{
+     margin: 0px 15px;
+  }
+
+  #creation{
+    display: flex;
+    margin: 20px 20px;
+  }
+
+  #avtar{
+    height: 25px;
+    width: 25px;
+  }
+
+  #creator{
+    display: block;
+    margin: 3px 10px;
+    color: rgb(145, 177, 224);
+  }
+
+  #cr-name{
+    color: white;
+  }
+
+  #cr-name:hover{
+    color: cyan;
+  }
+
+  .attribution{
+    position: sticky;
+  }
